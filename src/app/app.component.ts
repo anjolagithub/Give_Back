@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Give_Back';
+  public me = 'Academy';
+  public value = '';
+  public image = 'asset/image'
+  onClick() {
+    console.log('Thank you for Subscribing');
+  }
+  submit(login: any) {
+    console.log('form sunbmitted',login)
+  }
 }
